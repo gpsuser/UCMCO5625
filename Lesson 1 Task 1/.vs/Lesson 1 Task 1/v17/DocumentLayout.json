@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work\\repoGit\\UCMCO5625\\Lesson 1 Task 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C19A3EAF-A7B7-4F33-9A67-7B3D61598BF9}|Lesson 1 Task 1.vcxproj|C:\\work\\repoGit\\UCMCO5625\\Lesson 1 Task 1\\Lesson 1 Task 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C19A3EAF-A7B7-4F33-9A67-7B3D61598BF9}|Lesson 1 Task 1.vcxproj|solutionrelative:Lesson 1 Task 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lesson 1 Task 1.cpp",
+              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\Lesson 1 Task 1\\Lesson 1 Task 1.cpp",
+              "RelativeDocumentMoniker": "Lesson 1 Task 1.cpp",
+              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\Lesson 1 Task 1\\Lesson 1 Task 1.cpp",
+              "RelativeToolTip": "Lesson 1 Task 1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T22:48:04.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

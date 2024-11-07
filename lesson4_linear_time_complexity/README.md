@@ -1,6 +1,4 @@
-# linear Time Complexity
-
-# Time Complexity: O(n)
+# Linear Time Complexity - O(n)
 
 * The function `printAllElements` iterates through each element of the array once. 
 

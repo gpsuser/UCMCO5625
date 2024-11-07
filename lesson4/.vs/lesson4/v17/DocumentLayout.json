@@ -24,8 +24,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -34,7 +38,7 @@
               "RelativeDocumentMoniker": "..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
               "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
               "RelativeToolTip": "..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAswAoAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-07T12:56:32.165Z",
               "EditorCaption": ""
@@ -49,8 +53,7 @@
               "RelativeToolTip": "..\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T12:50:12.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T12:50:12.566Z"
             },
             {
               "$type": "Document",

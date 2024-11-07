@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECE9AB98-A217-427A-AC4D-3D00E4DC02E0}|..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECE9AB98-A217-427A-AC4D-3D00E4DC02E0}|..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -24,15 +27,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md",
+              "RelativeDocumentMoniker": "..\\lesson4_linear_time_complexity\\README.md",
+              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md",
+              "RelativeToolTip": "..\\lesson4_linear_time_complexity\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-07T13:15:07.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "lesson4_linear_time_complexity.cpp",
               "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
               "RelativeDocumentMoniker": "..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
@@ -45,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "lesson4_constant_time_complexity.cpp",
               "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
               "RelativeDocumentMoniker": "..\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
@@ -57,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "week4notes.md",
               "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\week4notes.md",
               "RelativeDocumentMoniker": "week4notes.md",
@@ -69,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "lesson4.cpp",
               "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\lesson4.cpp",
               "RelativeDocumentMoniker": "lesson4.cpp",

@@ -3,21 +3,10 @@
   "WorkspaceRootPath": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECE9AB98-A217-427A-AC4D-3D00E4DC02E0}|..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{8CA8C7BB-FF64-431E-9B58-557C1F30093D}|..\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE9AB98-A217-427A-AC4D-3D00E4DC02E0}|..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517E7BAA-6A5E-4C51-BE68-853DBA2BDE8B}|..\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF885E-D2C7-4DF6-A23E-A86F47241D76}|lesson4.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4\\week4notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{74CF885E-D2C7-4DF6-A23E-A86F47241D76}|lesson4.vcxproj|solutionrelative:week4notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF885E-D2C7-4DF6-A23E-A86F47241D76}|lesson4.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4\\lesson4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74CF885E-D2C7-4DF6-A23E-A86F47241D76}|lesson4.vcxproj|solutionrelative:lesson4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8CA8C7BB-FF64-431E-9B58-557C1F30093D}|..\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.vcxproj|C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,63 +22,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "README.md",
-              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md",
-              "RelativeDocumentMoniker": "..\\lesson4_linear_time_complexity\\README.md",
-              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\README.md",
-              "RelativeToolTip": "..\\lesson4_linear_time_complexity\\README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABTAAAA",
+              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\README.md",
+              "RelativeDocumentMoniker": "..\\lesson4_quadratic_time_complexity\\README.md",
+              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\README.md",
+              "RelativeToolTip": "..\\lesson4_quadratic_time_complexity\\README.md",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-07T13:15:07.871Z",
+              "WhenOpened": "2024-11-07T13:25:26.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "lesson4_linear_time_complexity.cpp",
-              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
-              "RelativeDocumentMoniker": "..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
-              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
-              "RelativeToolTip": "..\\lesson4_linear_time_complexity\\lesson4_linear_time_complexity.cpp",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAswBUAAAAAAAAA",
+              "Title": "lesson4_quadratic_time_complexity.cpp",
+              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.cpp",
+              "RelativeDocumentMoniker": "..\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.cpp",
+              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.cpp",
+              "RelativeToolTip": "..\\lesson4_quadratic_time_complexity\\lesson4_quadratic_time_complexity.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T12:56:32.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lesson4_constant_time_complexity.cpp",
-              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
-              "RelativeDocumentMoniker": "..\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
-              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
-              "RelativeToolTip": "..\\lesson4_constant_time_complexity\\lesson4_constant_time_complexity.cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T12:50:12.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "week4notes.md",
-              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\week4notes.md",
-              "RelativeDocumentMoniker": "week4notes.md",
-              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\week4notes.md",
-              "RelativeToolTip": "week4notes.md",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAADFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-11-07T12:22:51.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "lesson4.cpp",
-              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\lesson4.cpp",
-              "RelativeDocumentMoniker": "lesson4.cpp",
-              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\lesson4\\lesson4.cpp",
-              "RelativeToolTip": "lesson4.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T12:17:57.51Z"
+              "WhenOpened": "2024-11-07T13:25:07.625Z"
             }
           ]
         }

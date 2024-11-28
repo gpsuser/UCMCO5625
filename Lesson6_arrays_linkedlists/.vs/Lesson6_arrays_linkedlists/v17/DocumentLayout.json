@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work\\repoGit\\UCMCO5625\\Lesson6_arrays_linkedlists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5815DC6-0B32-42E6-B390-E5D2D04EB9D4}|Lesson6_arrays_linkedlists.vcxproj|C:\\work\\repoGit\\UCMCO5625\\Lesson6_arrays_linkedlists\\Lesson6_arrays_linkedlists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5815DC6-0B32-42E6-B390-E5D2D04EB9D4}|Lesson6_arrays_linkedlists.vcxproj|solutionrelative:Lesson6_arrays_linkedlists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lesson6_arrays_linkedlists.cpp",
+              "DocumentMoniker": "C:\\work\\repoGit\\UCMCO5625\\Lesson6_arrays_linkedlists\\Lesson6_arrays_linkedlists.cpp",
+              "RelativeDocumentMoniker": "Lesson6_arrays_linkedlists.cpp",
+              "ToolTip": "C:\\work\\repoGit\\UCMCO5625\\Lesson6_arrays_linkedlists\\Lesson6_arrays_linkedlists.cpp",
+              "RelativeToolTip": "Lesson6_arrays_linkedlists.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T13:11:45.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

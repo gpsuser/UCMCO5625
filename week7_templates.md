@@ -86,7 +86,9 @@ const char* add(const char* a, const char* b) {
 ## 3. Template Functions: Deep Dive
 
 ### Implementation Strategies
+
 1. **Function Template Basics:**
+
 ```cpp
 template <typename T>
 void swap(T& a, T& b) {
@@ -98,6 +100,7 @@ void swap(T& a, T& b) {
 
 
 2. **Multiple Type Parameters:**
+
 ```cpp
 template <typename T1, typename T2>
 void printPair(T1 first, T2 second) {
@@ -106,6 +109,7 @@ void printPair(T1 first, T2 second) {
 ```
 
 ### Security Implications
+
 - Compile-time type checking prevents runtime type errors
 - Template instantiation occurs at compile-time
 - No additional runtime overhead compared to manually written type-specific functions

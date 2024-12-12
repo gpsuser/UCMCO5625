@@ -75,11 +75,13 @@ Now that we've seen these core concepts, let's apply them to a few practical alg
 ## III. Reversing an Array
 
 A. The problem: Reverse the order of elements in an array
+
    - Input: An array of elements in one order
    - Output: The same elements in reverse order
    - This comes up frequently - worth knowing how to do it!
    
 B. Approaching a solution  
+
    1. Observe: Reversing swaps first & last, second & second last, etc.  
    2. This insight leads us to two approaches:
       - Iterative: Use a loop to swap ends, moving inward 

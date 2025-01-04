@@ -65,6 +65,7 @@ The choice between a min or max heap depends on the specific application.
 
 
 Figure 1: Min Heap Example
+
 ![img1](/img/img1.png)
 
 Binary heaps are the most common type of heap. In a binary heap, each node has at most two children. Typical binary heap operations include:
@@ -75,7 +76,7 @@ Binary heaps are the most common type of heap. In a binary heap, each node has a
 * `heapify`: Construct a heap from an array of elements in O(n) time
 
 
-### Visual Representation
+### Simplified Visual Representation
 
 ```
 Max Heap Example:                Min Heap Example:
@@ -100,6 +101,7 @@ Stated slightly differently:
 3. If not, swap elements and go to step 2
 
 Figure 2: Heap Insertion Example
+
 ![img2](/img/img2.png)
 
 Example code:
@@ -155,6 +157,7 @@ The process involves:
 3. Percolate down to maintain heap property
 
 Figure 3: Heap Extraction Example
+
 ![img3](/img/img3.png)
 
 ```cpp
@@ -208,6 +211,7 @@ For a heap element at index `i`:
 - Its parent is at index `floor((i-1) / 2)`
 
 Figure 4: Array Representation of a Heap
+
 ![img4](/img/img4.png)
 
 Some benefits of array implementation:

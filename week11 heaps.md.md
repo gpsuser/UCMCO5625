@@ -1,6 +1,5 @@
-# Week 11: Heap Data Structures
-## Course: Data Structures and Algorithms
-### Duration: 2 Hours
+# Week 11 - Heap Data Structures
+
 
 ## Learning Objectives
 

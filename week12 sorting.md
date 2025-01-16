@@ -350,6 +350,9 @@ Memory space is limited (as it can be implemented with in-place partitioning)
 Average-case performance is more important than worst-case guarantees
 Random access to elements is efficient (like in arrays)
 
+
+The basic idea of quicksort is to select a pivot element from the list and partition the other elements into two sublists, one with elements less than the pivot and another with elements greater than the pivot. The pivot selection and partitioning process is repeated recursively on the sublists until the list is sorted.
+
 Guidelines for optimal use:
 
 Choose an appropriate pivot selection strategy
@@ -357,28 +360,47 @@ Consider the characteristics of your input data
 Be aware of the stack space requirements for recursion
 Implement a hybrid approach with insertion sort for small subarrays
 
+
 #### c. Worked example with a list of numbers
 
-Let's sort the following array: [64, 34, 25, 12, 22, 11, 90]
+We'll use the following list for our example:
 
-Step-by-step partition process (using last element as pivot):
+[8, 3, 1, 7, 2, 5, 4, 6]
 
-Initial Array:
-Copy[64, 34, 25, 12, 22, 11, 90]
-                          ^
-                        pivot
-First Partition:
-Copy[11, 34, 25, 12, 22, 64, 90]
-                 ^     ^
-              smaller  pivot
+## Step 1: Choose a pivot element
+- In this example, let's choose the last element, 6, as the pivot.
+- The list is now: [8, 3, 1, 7, 2, 5, 4, (6)]
 
-Recursive partitioning of left subarray [11, 34, 25, 12, 22]:
-Copy[11, 12, 25, 34, 22]
-              ^  ^
-           smaller pivot
+## Step 2: Partition the list
+- Move elements less than the pivot to the left and elements greater than the pivot to the right.
+- After partitioning, the list becomes: [3, 1, 2, 5, 4, (6), 8, 7]
+- The pivot element (6) is now in its final sorted position.
 
-Final sorted array:
-Copy[11, 12, 22, 25, 34, 64, 90]
+## Step 3: Recursively apply quicksort to the sublists
+- The list is divided into two sublists: [3, 1, 2, 5, 4] and [8, 7]
+- Recursively apply steps 1-3 to each sublist.
+
+### Sublist 1: [3, 1, 2, 5, 4]
+- Choose 4 as the pivot
+- After partitioning: [3, 1, 2, (4), 5]
+- Sublists: [3, 1, 2] and [5]
+
+#### Sublist 1.1: [3, 1, 2]
+- Choose 2 as the pivot
+- After partitioning: [1, (2), 3]
+- Sublists: [1] and [3]
+- Both sublists have only one element, so they are sorted.
+
+#### Sublist 1.2: [5]
+- Only one element, already sorted.
+
+### Sublist 2: [8, 7]
+- Choose 7 as the pivot
+- After partitioning: [(7), 8]
+- Sublists: [] and [8]
+- Both sublists have one or zero elements, so they are sorted.
+
+The final sorted list: [1, 2, 3, 4, 5, 6, 7, 8]
 
 #### d. Worked example (C++)
 
@@ -420,7 +442,7 @@ public:
 
 // Usage example
 int main() {
-    std::vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
+    std::vector<int> arr = {8, 3, 1, 7, 2, 5, 4, 6};
     QuickSort sorter;
     
     std::cout << "Original array: ";
@@ -433,6 +455,17 @@ int main() {
     
     return 0;
 }
+```
+
+In this implementation:
+1. We define the base case: if the list has 0 or 1 elements, it's already sorted, so we return the list as is.
+2. We choose the last element as the pivot.
+3. We partition the list into two sublists using list comprehensions: `left` contains elements less than the pivot, and `right` contains elements greater than or equal to the pivot.
+4. We recursively apply quicksort to the `left` and `right` sublists and combine the results with the pivot in the middle.
+
+The output will be:
+```
+[1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 #### e. Time complexity
@@ -632,3 +665,10 @@ This table outlines the fundamental characteristics of each sorting algorithm, b
 Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms (3rd ed.). MIT Press.
 Sedgewick, R., & Wayne, K. (2011). Algorithms (4th ed.). Addison-Wesley Professional.
 Knuth, D. E. (1998). The Art of Computer Programming, Volume 3: Sorting and Searching (2nd ed.). Addison-Wesley Professional.
+
+
+
+
+
+
+

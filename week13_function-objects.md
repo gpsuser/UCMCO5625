@@ -13,6 +13,7 @@ A function object is an instance of a class that implements the function call op
 3. They are type-safe
 4. They can be optimized better by the compiler through inlining
 
+
 ## Step-by-Step Implementation Example
 
 Let's walk through creating a custom data type and implementing function objects for sorting. We'll create a `Person` class and different ways to sort people.
